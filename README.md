@@ -1,1 +1,1 @@
-# Project-3---Puppy-Love
+# Project-3---PupPals
