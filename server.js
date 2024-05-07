@@ -116,10 +116,15 @@ app.post('/api/users', async (req, res) => {
 // For: Displaying profile
 // Method: GET
 // Path: /api/users/:userId
-app.get('/api/users/:userId', (req, res) => {
+app.get('/api/users/:userId', async (req, res) => {
   try {
     console.log('hit profile route')
+    // const profile = await User.findById(req.params).populate(
+    //   'pupsCreated'
+    // )
+    // return res.json(profile)
   } catch (error) {
+    // return res.status(500).json(error)
     console.log(error)
   }
 })
