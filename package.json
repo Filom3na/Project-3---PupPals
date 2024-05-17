@@ -1,0 +1,38 @@
+{
+  "name": "project-3---puppals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "npx nodemon server.js",
+    "seed": "node database/seeds.js",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm i --only=dev && npm i && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.3",
+    "cloudinary": "^2.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.4",
+    "morgan": "^1.10.0",
+    "react-bootstrap": "^2.10.2",
+    "react-card-flip": "^1.2.2",
+    "reactjs-flip-card": "^2.0.3",
+    "vite": "^5.2.11"
+  },
+  "devDependencies": {
+    "sass": "^1.77.1"
+  }
+}
