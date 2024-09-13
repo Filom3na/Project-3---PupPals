@@ -22,12 +22,12 @@ https://github.com/user-attachments/assets/4f7385ae-a98e-4924-8b73-2763ea26391f
 PupPals is a full-stack application designed to connect dog owners with other local dog owners. It was my third project during the Software Engineering Immersive Course with General Assembly, completed as part of a three-person team over two weeks. The unique aspect of PupPals is that matching is based solely on the dogs themselves, not the owners' appearances, promoting genuine connections between pets and their humans.
 
 ## Demo
-The application is deployed on Heroku. You can explore PupPals [here](insert_heroku_link).
+The application is deployed on Heroku. You can explore PupPals [here](https://puppals-f25422820259.herokuapp.com/).
 
 ## Team Members
 - Filomena Murgo (myself)
 - Cassie Lee
-- Mollie Morgan
+- Mollie Gregson
 
 ## Technologies Used
 ### Backend
@@ -107,7 +107,7 @@ This thorough planning process gave us a clear direction and helped us anticipat
 ## My Contributions
 
 ### Home Page
-I took the lead on developing the Home Page, which serves as the first point of contact for our users. It features a hero image that I designed, setting the tone for the application's friendly and inviting atmosphere. The page includes a navigation bar with links to the Registration and Login pages, making it easy for new users to join or existing users to access their accounts.
+I took the lead on developing the Home Page, which serves as the first point of contact for our users. It features a hero image that my team mate Cassie Lee designed, setting the tone for the application's friendly and inviting atmosphere. The page includes a navigation bar with links to the Registration and Login pages, making it easy for new users to join or existing users to access their accounts.
 
 Towards the bottom of the page, I added two key sections:
 1. An informative container explaining what PupPals is about, helping new visitors understand the app's purpose and benefits.
